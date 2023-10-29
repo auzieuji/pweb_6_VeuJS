@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Calculator VueJS</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            {{text}} <br><br>
+            <input v-model = "v1">
+            <input v-model = "v2"> <br><br>
+            <button v-on:click="hasil=parseFloat(v1)+parseFloat(v2)">+</button>
+            <button v-on:click="hasil=parseFloat(v1)-parseFloat(v2)">-</button>
+            <button v-on:click="hasil=parseFloat(v1)*parseFloat(v2)">x</button>
+            <button v-on:click="hasil=parseFloat(v1)/parseFloat(v2)">/</button>
+            <br><br> {{texthasil}}{{hasil}}
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
