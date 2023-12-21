@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  },
+  "dependencies": {
+    "consolidate": "^1.0.3",
+    "stable": "^0.1.8"
+  }
+}
